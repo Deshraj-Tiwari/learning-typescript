@@ -1,11 +1,5 @@
 import React from "react";
-
-interface PostProps {
-  posts: {
-    title: string;
-    body: string;
-  }[];
-}
+import { PostProps } from "@/types/types";
 
 function Post(props: PostProps): React.ReactElement {
   return (
